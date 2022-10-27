@@ -1,0 +1,78 @@
+/* * {
+    margin: 0;
+    padding: 0;
+  } */
+  .left-nav-item {
+    height: auto;
+    width: 3%;
+}
+.right-nav-item {
+    font-size: 1.5vw;
+    margin-left: 60%;
+    display: inline;
+    position: relative;
+}
+.main-txt {
+    text-align: center;
+    font-size: 153%;
+}
+h1 {
+    text-align: center;
+}
+.button {
+    background-color: #636463;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 0.3% 1%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 70%;
+    margin: 0.4% 0.2%;
+    border-radius: 10%;
+}
+.ded{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+body {
+    background: linear-gradient(#938be2, #42b9b3, #1b333b, #93afd3);
+    animation: gradient 35s ease infinite;
+}
+.btmbtn {
+    background-color: #747577;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 2% 19%;
+    text-decoration: none;
+    font-size: 120%;
+    border-radius: 20%;
+}
+.btm {
+    margin-left: 45%;
+    margin-right: 40%
+}
+.container {
+    text-align:center;
+}
+.container img {
+    display:inline-block;
+    width:30%;
+    margin:0 1% 0 1%;
+}
+.devclk {
+    border-left: 15px solid blue;
+    border-right: 15px solid blue;
+    color: rgb(17, 17, 17);
+    background-color: rgb(70, 221, 188);
+    border-radius: 15%;
+    
+}
+.devclk:hover {
+    background-color: rgb(40, 194, 73);
+    transition: 0.7s;
+}
+.devclk:hover::after {
+    content : "Click For More"
+    
+}
